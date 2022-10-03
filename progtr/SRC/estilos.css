@@ -1,0 +1,312 @@
+html,body {
+    margin:0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 1200px;
+    max-width: 1800px;
+    background: rgb(4, 129, 87);
+background: linear-gradient(90deg, rgb(129, 4, 10) 0%, rgb(135, 41, 104) 43%, rgb(165, 19, 141) 100%);
+}
+
+a{
+    text-decoration: none !important;
+    color:inherit !important;
+}
+button{
+    background-color: transparent;
+    border:none;
+}
+#navbar{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#icon{
+    height: 100px;
+    padding: 10px;
+    width: 20%;
+}
+#icon img{
+    height: 80%;
+}
+#navbar-sections{
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+#navbar-sections button{
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    color:rgb(255, 255, 255);
+    margin-right: 15px;
+}
+.no-decoration{
+    background-color: transparent;
+    height: 100%;
+    border: none;
+}
+#navbar-profile{
+    width: 20%;
+}
+#navbar-profile button{
+    background-color: transparent;
+    height: 30px;
+    border: none;
+}
+#navbar-profile button img{
+    height: 100%;
+}
+#content{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#content-center{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#login-menu{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #681225;
+    color:rgba(255, 255, 255, 0.986);
+    padding: 20px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+#login-menu h1{
+    font-family: "Bebas Neue";
+}
+#login-menu input{
+    margin-bottom: 30px;
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 10px;
+}
+#create-account{
+    background-color: white;
+    color:#221268;
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#create-account button{
+    width:100%;
+    height: 100%;
+    color: #221268 !important;
+}
+
+#content-homepage{
+    margin-top:-45px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    min-height: 70vh !important;
+    overflow-x: hidden;
+}
+#content-homepage h1{
+    font-size: 80px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+#content-homepage h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+#homepage-image{
+    height: 350px;
+    margin-left: 100px;
+}
+
+#homepage-build-buttons button{
+    background-color: #ba68c8 ;
+    color:white;
+    border-radius: 10px;
+    padding: 20px 80px 20px 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#homepage-build-buttons {
+    margin-bottom: 50px;
+}
+#footer{
+    width: 100%;
+    background-color: #1d262a;
+    height: 30vh !important;
+    color:white;
+    padding:20px;
+    justify-content: space-between !important;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#footer h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+#subscribe{
+    background-color: #ba68c8 ;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+    width: 20%;
+}
+#footer input{
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    color:white;
+    margin-right: 20px;
+    width: 60%;
+    padding: 10px;
+}
+
+#footer-col2{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#copyright{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.inline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#socialmedia{
+    margin-top:30px;
+}
+#socialmedia img{
+    height: 30px;
+}
+#content-beginner-options{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    margin-top:50px
+}
+#content-margin{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    margin-top:50px
+}
+#content-beginner-grid-col{
+    text-align: center;  
+    margin-right:60px;
+    
+    
+}
+#content-beginner-grid-col button{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    padding:30px;
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 3px solid transparent;
+}
+#content-beginner-grid-col img{
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+#content-beginner-grid-row{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#content-beginner-recommendation-grid-row{
+    margin-top:50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#content-beginner-recommendation-components-col{
+    height: 60px;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.239);
+    margin-right: 20px;
+}
+#content-beginner-recommendation-components-col img{
+    height: 100%;
+}
+.content-advanced-categories-grid-col{
+    background-color: #ba68c8;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    margin:5px;
+    width:100%;
+    height: 100%;
+}
+.content-advanced-buyCard{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    height:100px;
+    padding:10px;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.content-advanced-buyCard img{
+    width: 60px;
+    margin-right: 10px;
+}
+.content-advanced-buyCard-text{
+    text-align: left;
+    width:70%;
+}
+.content-advanced-buyCard-text-price{
+    margin-top:-20px;
+}
+.content-advanced-buyCard-addButton{
+    border-radius:100px;
+    background-color:#673ab7;
+    height:40px;
+    width:40px;
+    color:white;
+}
+.buyList{
+    background-color:rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
